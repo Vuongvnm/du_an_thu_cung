@@ -22,7 +22,7 @@
             <div class="row mb menu">
                 <ul>
                     <li><a href="index.php">Trang chủ</a></li>
-                    <li><a href="index.php?chucnang=listdanhmuc">Danh mục</a></li>
+                    <li><a href="index.php?action=list_danhmuc">Danh mục</a></li>
                     <li><a href="admin.html">Hàng hóa</a></li>
                     <li><a href="">Khách hàng</a></li>
                     <li><a href="">Bình luận</a></li>

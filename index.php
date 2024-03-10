@@ -3,9 +3,9 @@
 if ($_GET == []) {
     include "index.html";
 } else {
-    if(isset($_GET['chucnang'])){
-        $chucNang = $_GET['chucnang'];
-        switch($chucNang) {
+    if(isset($_GET['action'])){
+        $action = $_GET['action'];
+        switch($action) {
             case 'sanpham':
                 include "danhsach.html";
                 break;

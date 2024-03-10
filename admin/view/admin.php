@@ -6,11 +6,11 @@
     <form action="#" method="POST">
       <div class="row2 mb10 form_content_container">
         <label> Mã loại </label> <br>
-        <input type="text" name="maloai" placeholder="nhập vào mã loại">
+        <input type="text" name="ma_loai" placeholder="nhập vào mã loại">
       </div>
       <div class="row2 mb10">
         <label>Tên loại </label> <br>
-        <input type="text" name="tenloai" placeholder="nhập vào tên">
+        <input type="text" name="ten_loai" placeholder="nhập vào tên">
       </div>
       <div class="row mb10 ">
         <input class="mr20" type="submit" value="THÊM MỚI">
