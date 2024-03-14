@@ -2,9 +2,9 @@
 include "model/danh_muc.php";
 include "model/sanpham.php";
 // B1 lấy dữ liệu từ DB -> Giao cho model
-if(isset($_GET['id_dm']))
+if(isset($_GET['id']))
 {
-    $id_danhmuc= $_GET['id_dm'];
+    $id_danhmuc= $_GET['id'];
     $listThucung= load_all_thucung_theo_id_danh_muc($id_danhmuc);
     include "view/sanpham/list.php";
 }

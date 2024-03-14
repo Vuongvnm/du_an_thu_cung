@@ -10,11 +10,14 @@ if ($_GET == []) {
             case 'list_danhmuc':
                 include "controller/danh_muc/list.php";
                 break;
-            case 'themdanhmuc':
+            case 'them_danhmuc':
                 include "controller/danh_muc/add.php";
                 break;
             case 'listsanpham':
                 include "controller/sanpham/list.php";
+                break;
+            case 'themsanpham':
+                include "controller/sanpham/add.php";
                 break;
         }
     }
