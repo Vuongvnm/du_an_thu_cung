@@ -13,6 +13,9 @@ if ($_GET == []) {
             case 'themdanhmuc':
                 include "controller/danh_muc/add.php";
                 break;
+            case 'listsanpham':
+                include "controller/sanpham/list.php";
+                break;
         }
     }
 }
