@@ -23,15 +23,15 @@
         <td><?= $item['id_mausac'] ?></td>
         <td><?= $item['gia'] ?></td>
         <td><?= $item['tuoi'] ?></td>
-        <td><?= $item['gioitinh'] ?></td>
+        <td><?= $item['gioi_tinh'] ?></td>
         <td><?= $item['nguon_goc'] ?></td>
-        <td><a class="btn btn-warning" href="index.php?chucnang=chitietsanpham&id=<?=$item['id_sp']?>">Chi Tiết</a></td>
-        <td><a class="btn btn-warning" href="index.php?chucnang=suasanpham&id=<?=$item['id_sp']?>">Sửa</a></td>
-        <td><a class="btn btn-warning" href="index.php?chucnang=xoasanpham&id=<?=$item['id_sp']?>">Xoá</a></td>
+        <td><a class="btn btn-warning" href="index.php?action=chitietsanpham&id=<?=$item['id_sp']?>">Chi Tiết</a></td>
+        <td><a class="btn btn-warning" href="index.php?action=suasanpham&id=<?=$item['id_sp']?>">Sửa</a></td>
+        <td><a class="btn btn-warning" href="index.php?action=xoasanpham&id=<?=$item['id_sp']?>">Xoá</a></td>
       </tr>
     <?php
     }
     ?>
   </tbody>
 </table>
-<a class="btn btn-primary" href="index.php?chucnang=themsanpham"> Thêm mới </a>
+<a class="btn btn-primary" href="index.php?action=themsanpham"> Thêm mới </a>
