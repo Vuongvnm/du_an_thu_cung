@@ -11,6 +11,10 @@
           require_once "controller/danh_muc/danh_sach_danh_muc.php";
           break;
 
+        case 'chi_tiet_danh_muc':
+          require_once "controller/danh_muc/chi_tiet_danh_muc.php";
+          break;
+
         case 'them_danh_muc':
           require_once "controller/danh_muc/them_danh_muc.php";
           break;
@@ -33,6 +37,10 @@
 
         case 'danh_sach_san_pham':
           require_once "controller/san_pham/danh_sach_san_pham.php";
+          break;
+
+        case 'chi_tiet_san_pham':
+          require_once "controller/san_pham/chi_tiet_san_pham.php";
           break;
 
         case 'them_san_pham':

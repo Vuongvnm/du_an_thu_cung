@@ -25,12 +25,13 @@
               $ten_dm = $dsdm['ten_dm'];
               $sua_dm = "index.php?action=sua_dm&id_dm=".$id_dm;
               $xoa_dm = "index.php?action=xoa_dm&id_dm=".$id_dm;
+              $chi_tiet_danh_muc = "index.php?action=chi_tiet_danh_muc&id_dm=".$id_dm;
           ?>
           <tr>
             <td><input type="checkbox"></td>
             <td><?=$id_dm?></td>
             <td><?=$ten_dm?></td>
-            <td><a href="<?=$sua_dm?>"><input type="button" value="Sửa"></a> <a href="<?=$xoa_dm?>"><input type="button" value="Xóa" onclick="return confirm('Bạn có muốn xóa không?')"></td></a>
+            <td><a href="<?=$sua_dm?>"><input type="button" value="Sửa"></a> <a href="<?=$xoa_dm?>"><input type="button" value="Xóa" onclick="return confirm('Bạn có muốn xóa không?')"></a> <a href="<?=$chi_tiet_danh_muc?>"><input type="button" value="Chi tiết"></a></td>
           </tr>
           <?php
           }
