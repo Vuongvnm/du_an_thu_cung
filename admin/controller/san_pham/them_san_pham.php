@@ -16,12 +16,10 @@
     $nguon_goc = $_POST['nguon_goc'];
     $tiem_chung = $_POST['tiem_chung'];
     $ghi_chu = $_POST['ghi_chu'];
-    $ngay_tao = $_POST['ngay_tao'];
-    $ngay_cap_nhat = $_POST['ngay_cap_nhat'];
     $target_dir = "../upload/";
     $target_file = $target_dir . basename($_FILES["hinh_anh"]["name"]);
     move_uploaded_file($_FILES["hinh_anh"]["tmp_name"], $target_file);
-    them_san_pham($ten_sp, $gia_sp, $tuoi, $gioi_tinh, $hinh_anh, $nguon_goc, $tiem_chung, $ghi_chu, $ngay_tao, $ngay_cap_nhat, $id_dm, $id_ms);
+    them_san_pham($ten_sp, $gia_sp, $tuoi, $gioi_tinh, $hinh_anh, $nguon_goc, $tiem_chung, $ghi_chu, $id_dm, $id_ms);
     echo "<script type='text/javascript'>alert('Thêm thành công!');</script>";
   }
   require_once "them_san_pham.php";

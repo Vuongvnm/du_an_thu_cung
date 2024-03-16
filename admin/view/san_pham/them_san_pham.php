@@ -57,13 +57,5 @@
     <label class="form-label">Ghi chú</label>
     <input type="text" class="form-control" name="ghi_chu">
   </div>
-  <div class="mb-3">
-    <label class="form-label">Ngày tạo</label>
-    <input type="date" class="form-control" name="ngay_tao">
-  </div>
-  <div class="mb-3">
-    <label class="form-label">Ngày cập nhật</label>
-    <input type="date" class="form-control" name="ngay_cap_nhat">
-  </div>
   <button type="submit" class="btn btn-primary" name="them_moi">Thêm mới</button>
 </form>

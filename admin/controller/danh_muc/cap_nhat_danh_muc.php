@@ -1,6 +1,6 @@
 <?php
   require_once "./model/danh_muc.php";
-  if(isset($_POST['cap_nhat']) && ($_POST['cap_nhat'])) {
+  if(isset($_POST['cap_nhat'])) {
     $id_dm = $_POST['id_dm'];
     $ten_dm = $_POST['ten_dm'];
     sua_danh_muc($id_dm, $ten_dm);
