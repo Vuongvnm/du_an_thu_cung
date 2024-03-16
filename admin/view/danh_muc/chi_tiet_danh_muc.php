@@ -20,12 +20,18 @@
             <th>TUỔI</th>
             <th>GIỚI TÍNH</th>
             <th>HÌNH ẢNH</th>
+            <th>NGUỒN GỐC</th>
+            <th>TIÊM CHỦNG</th>
+            <th>SỐ LƯỢNG</th>
+            <th>GHI CHÚ</th>
+            <th>NGÀY TẠO</th>
+            <th>NGÀY CẬP NHẬT</th>
             <th>CHỨC NĂNG</th>
             <th></th>
           </tr>
           <?php
             foreach($danh_sach_san_pham as $dssp) {
-              $id_sp = $dssp['id_sp'];
+              $id_sp = $dssp['id_dm'];
               $ten_sp = $dssp['ten_sp'];
               $gia_sp = $dssp['gia_sp'];
               $tuoi = $dssp['tuoi'];
@@ -45,7 +51,6 @@
               }
               $sua_sp = "index.php?action=sua_sp&id_sp=".$id_sp;
               $xoa_sp = "index.php?action=xoa_sp&id_sp=".$id_sp;
-              $chi_tiet_san_pham = "index.php?action=chi_tiet_san_pham&id_sp=".$id_sp;
           ?>
           <tr>
             <td><input type="checkbox"></td>
@@ -55,7 +60,13 @@
             <td><?=$tuoi?></td>
             <td><?=$gioi_tinh?></td>
             <td><img src="<?=$hinh_path?>" width="100" height="100"></td>
-            <td><a href="<?=$sua_sp?>"><input type="button" value="Sửa"></a> <a href="<?=$xoa_sp?>"><input type="button" value="Xóa" onclick="return confirm('Bạn có muốn xóa không?')"></a> <a href="<?=$chi_tiet_san_pham?>"><input type="button" value="Chi tiết"></a></td>
+            <td><?=$nguon_goc?></td>
+            <td><?=$tiem_chung?></td>
+            <td><?=$so_luong?></td>
+            <td><?=$ghi_chu?></td>
+            <td><?=$ngay_tao?></td>
+            <td><?=$ngay_cap_nhat?></td>
+            <td><a href="<?=$sua_sp?>"><input type="button" value="Sửa"></a> <a href="<?=$xoa_sp?>"><input type="button" value="Xóa" onclick="return confirm('Bạn có muốn xóa không?')"></td></a>
           </tr>
           <?php
           }

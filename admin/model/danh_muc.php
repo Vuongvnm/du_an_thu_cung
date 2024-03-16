@@ -6,6 +6,11 @@
     return pdo_query($sql);
   }
 
+  function san_pham_id_danh_muc($id_dm) {
+    $sql = "SELECT * FROM san_pham WHERE id_dm = $id_dm";
+    return pdo_query($sql);
+  }
+
   function them_danh_muc($ten_dm) {
     $sql = "INSERT INTO danh_muc (ten_dm) VALUES ('$ten_dm')";
     pdo_execute($sql);
