@@ -7,6 +7,12 @@
           <img src="">
         </div>
         <p>Giá tiền: VNĐ</p>
+        <p>Tuổi: </p>
+        <p>Tuổi: </p>
+        <p>Tuổi: </p>
+        <p>Tuổi: </p>
+        <p>Tuổi: </p>
+        <p>Tuổi: </p>
         <p>Mô tả:</p>
       </div>
     </div>

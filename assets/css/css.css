@@ -19,11 +19,11 @@ body{
 
 .row{
   display:flex;
-  width:100%;
 }
+
 .row2{
-float:left;
-    width:100%;
+  float:left;
+  width:100%;
 }
 .mb{
     margin-bottom:30px;
@@ -248,7 +248,7 @@ form{
 .form_account{
   line-height: 150%;
 }
-.form_account input[type="email"],
+/* .form_account input[type="email"],
 .form_account input[type="text"],
 .form_account input[type="password"],
 .form_content input[type="text"]{
@@ -276,7 +276,7 @@ form{
 .form_content input[type="reset"]:hover,
 .form_content input[type="button"]:hover{
     background:#CCC;
-}
+} */
      /*  CSS CHO PHẦN DANH MỤC */
 .product_portfolio ul{
 margin:0;
@@ -321,14 +321,14 @@ width:60%;
 }
 
 /* CSS CHO ADMIN */
-.header_admin{
+ .header_admin{
     background-color:#EEE;
     border:1px #CCC solid;
     color:#666;
     border-radius:5px;
     padding:10px 20px;
-    
 }
+
 .header_admin h1{
 font-size:2vv;
 }
@@ -342,19 +342,18 @@ font-size:2vv;
 .mr20{
    margin-right:10px;
 }
- label{
+ /* label{
    display:flex;
    justify-content:start;
     font-size:20px;
     color:red;
     margin-top:5px;
-}
+} */
 .formds_loai table{
     width:100%;
     border-collapse:collapse;
-     background-color:#ccc;
-   
-        padding:20px;
+    background-color:#ccc;
+    padding:20px;
 }
 .formds_loai table td {
     padding:10px 20px;
@@ -363,7 +362,7 @@ font-size:2vv;
 }
 .box_footer{
     margin-top:300px;
-}
+} 
 /* footer section starts */
 #footer {
     font-family: BalloExtra;
