@@ -30,4 +30,5 @@
     $sql = "UPDATE danh_muc SET ten_dm ='".$ten_dm."' WHERE id_dm = $id_dm";
     pdo_execute($sql);
   }
+
 ?>
